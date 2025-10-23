@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/example-basic" />
+            <option value="$PROJECT_DIR$/example-dynamodb" />
+            <option value="$PROJECT_DIR$/example-dynamodb-testcontainers" />
+            <option value="$PROJECT_DIR$/example-elastic-search" />
+            <option value="$PROJECT_DIR$/example-grpc" />
+            <option value="$PROJECT_DIR$/example-h2" />
+            <option value="$PROJECT_DIR$/example-kafka" />
+            <option value="$PROJECT_DIR$/example-kafka-testcontainers" />
+            <option value="$PROJECT_DIR$/example-mysql" />
+            <option value="$PROJECT_DIR$/example-redis" />
+            <option value="$PROJECT_DIR$/example-redis-embedded" />
+            <option value="$PROJECT_DIR$/example-rest" />
+            <option value="$PROJECT_DIR$/example-s3" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

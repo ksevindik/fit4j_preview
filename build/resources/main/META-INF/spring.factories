@@ -1,0 +1,8 @@
+org.springframework.test.context.ContextCustomizerFactory=\
+  com.fit4j.context.Fit4JTestContextCustomizerFactory, \
+  com.fit4j.context.TestContainersContextCustomizerFactory, \
+  com.fit4j.context.MockWebServerContextCustomizerFactory,\
+  com.fit4j.context.GrpcContextCustomizerFactory,\
+  com.fit4j.context.EmbeddedKafkaContextCustomizerFactory,\
+  com.fit4j.context.EmbeddedDynamoDBContextCustomizerFactory, \
+  com.fit4j.context.EmbeddedRedisContextCustomizerFactory

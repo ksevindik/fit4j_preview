@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - GrpcExampleWithProgrammaticFixtureFIT</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>GrpcExampleWithProgrammaticFixtureFIT</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.fit4j.examples.grpc.html">com.fit4j.examples.grpc</a> &gt; GrpcExampleWithProgrammaticFixtureFIT</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.012s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">should get foo name id 123()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should get foo with id 123()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should get foo with id 456()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2025-10-23T18:54:41.876+03:00  INFO 95791 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.fit4j.examples.ExamplesParentApplication for test class com.fit4j.examples.grpc.GrpcExampleWithProgrammaticFixtureFIT
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.7)
+
+2025-10-23T18:54:41.885+03:00  WARN 95791 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/kenan.sevindik/.gradle/caches/modules-2/files-2.1/org.json/json/20231013/e22e0c040fe16f04ffdb85d851d77b07fc05ea52/json-20231013.jar!/org/json/JSONObject.class
+	jar:file:/Users/kenan.sevindik/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-10-23T18:54:41.885+03:00  INFO 95791 --- [    Test worker] .g.GrpcExampleWithProgrammaticFixtureFIT : The following 1 profile is active: &quot;test&quot;
+2025-10-23T18:54:41.937+03:00  INFO 95791 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-23T18:54:41.939+03:00  INFO 95791 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2025-10-23T18:54:41.981+03:00  INFO 95791 --- [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-23T18:54:42.010+03:00  INFO 95791 --- [    Test worker] g.s.a.GrpcServerFactoryAutoConfiguration : 'grpc.server.in-process-name' is set: Creating InProcessGrpcServerFactory
+2025-10-23T18:54:42.046+03:00  INFO 95791 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-23T18:54:42.047+03:00  INFO 95791 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:f05dab25-ee30-4949-81f5-eaada633613c user=SA
+2025-10-23T18:54:42.047+03:00  INFO 95791 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-23T18:54:42.063+03:00  INFO 95791 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2025-10-23T18:54:42.063+03:00  INFO 95791 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2025-10-23T18:54:42.063+03:00  INFO 95791 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: com.example.FooService, bean: com.fit4j.grpc.SubFooServiceImplBase, class: com.fit4j.grpc.SubFooServiceImplBase
+2025-10-23T18:54:42.063+03:00  INFO 95791 --- [    Test worker] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: in-process:d2b4eefd-c17b-4642-a96f-fb3202aaa22f, port: -1
+2025-10-23T18:54:42.065+03:00  INFO 95791 --- [    Test worker] .g.GrpcExampleWithProgrammaticFixtureFIT : Started GrpcExampleWithProgrammaticFixtureFIT in 0.187 seconds (process running for 2.474)
+2025-10-23T18:54:42.067+03:00  INFO 95791 --- [    Test worker] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6.4</a> at Oct 23, 2025, 6:54:42 PM</p>
+</div>
+</div>
+</body>
+</html>

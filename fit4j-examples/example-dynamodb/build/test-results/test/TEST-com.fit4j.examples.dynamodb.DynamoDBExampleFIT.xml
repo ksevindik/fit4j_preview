@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fit4j.examples.dynamodb.DynamoDBExampleFIT" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-23T15:54:19" hostname="FWQXF07G9F" time="0.427">
+  <properties/>
+  <testcase name="it should work()" classname="com.fit4j.examples.dynamodb.DynamoDBExampleFIT" time="0.427"/>
+  <system-out><![CDATA[18:54:17.075 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.FIT with appropriate @AliasFor declarations: [webEnvironment]
+18:54:17.077 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.FIT with appropriate @AliasFor declarations: [webEnvironment]
+18:54:17.080 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.IT with appropriate @AliasFor declarations: [webEnvironment]
+18:54:17.328 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fit4j.examples.ExamplesParentApplication for test class com.fit4j.examples.dynamodb.DynamoDBExampleFIT
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.7)
+
+2025-10-23T18:54:18.043+03:00  WARN 95660 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/kenan.sevindik/.gradle/caches/modules-2/files-2.1/org.json/json/20231013/e22e0c040fe16f04ffdb85d851d77b07fc05ea52/json-20231013.jar!/org/json/JSONObject.class
+	jar:file:/Users/kenan.sevindik/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-10-23T18:54:18.047+03:00  INFO 95660 --- [    Test worker] c.f.e.dynamodb.DynamoDBExampleFIT        : The following 1 profile is active: "test"
+2025-10-23T18:54:18.371+03:00  INFO 95660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-23T18:54:18.377+03:00  INFO 95660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2025-10-23T18:54:18.650+03:00  INFO 95660 --- [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-23T18:54:18.782+03:00  INFO 95660 --- [    Test worker] g.s.a.GrpcServerFactoryAutoConfiguration : 'grpc.server.in-process-name' is set: Creating InProcessGrpcServerFactory
+2025-10-23T18:54:19.038+03:00  INFO 95660 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-23T18:54:19.133+03:00  INFO 95660 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:057dfcf5-3cd9-47a3-8ef8-8cced8fe1dfe user=SA
+2025-10-23T18:54:19.134+03:00  INFO 95660 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-23T18:54:19.399+03:00  INFO 95660 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2025-10-23T18:54:19.399+03:00  INFO 95660 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2025-10-23T18:54:19.399+03:00  INFO 95660 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: com.example.FooService, bean: com.fit4j.grpc.SubFooServiceImplBase, class: com.fit4j.grpc.SubFooServiceImplBase
+2025-10-23T18:54:19.403+03:00  INFO 95660 --- [    Test worker] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: in-process:7fa1981e-82cc-4d87-a79c-742bd7978e90, port: -1
+2025-10-23T18:54:19.413+03:00  INFO 95660 --- [    Test worker] c.f.e.dynamodb.DynamoDBExampleFIT        : Started DynamoDBExampleFIT in 2.0 seconds (process running for 2.852)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

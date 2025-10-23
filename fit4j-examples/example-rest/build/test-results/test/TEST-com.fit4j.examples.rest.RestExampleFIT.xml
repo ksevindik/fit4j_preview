@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fit4j.examples.rest.RestExampleFIT" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-23T15:55:43" hostname="FWQXF07G9F" time="0.392">
+  <properties/>
+  <testcase name="rest call using okhttp2 should work()" classname="com.fit4j.examples.rest.RestExampleFIT" time="0.392"/>
+  <system-out><![CDATA[18:55:41.745 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.FIT with appropriate @AliasFor declarations: [webEnvironment]
+18:55:41.746 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.FIT with appropriate @AliasFor declarations: [webEnvironment]
+18:55:41.748 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.IT with appropriate @AliasFor declarations: [webEnvironment]
+18:55:41.758 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.fit4j.examples.rest.RestExampleFIT]: RestExampleFIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:55:41.901 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fit4j.examples.ExamplesParentApplication for test class com.fit4j.examples.rest.RestExampleFIT
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.7)
+
+2025-10-23T18:55:42.077+03:00  WARN 96105 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/kenan.sevindik/.gradle/caches/modules-2/files-2.1/org.json/json/20231013/e22e0c040fe16f04ffdb85d851d77b07fc05ea52/json-20231013.jar!/org/json/JSONObject.class
+	jar:file:/Users/kenan.sevindik/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-10-23T18:55:42.081+03:00  INFO 96105 --- [    Test worker] com.fit4j.examples.rest.RestExampleFIT   : The following 1 profile is active: "test"
+2025-10-23T18:55:42.416+03:00  INFO 96105 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-23T18:55:42.422+03:00  INFO 96105 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2025-10-23T18:55:42.813+03:00  INFO 96105 --- [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-23T18:55:42.930+03:00  INFO 96105 --- [    Test worker] g.s.a.GrpcServerFactoryAutoConfiguration : 'grpc.server.in-process-name' is set: Creating InProcessGrpcServerFactory
+2025-10-23T18:55:43.166+03:00  INFO 96105 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-23T18:55:43.236+03:00  INFO 96105 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:c268f92c-c527-4dce-ae6e-75e9d751615a user=SA
+2025-10-23T18:55:43.236+03:00  INFO 96105 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-23T18:55:43.382+03:00  INFO 96105 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2025-10-23T18:55:43.382+03:00  INFO 96105 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2025-10-23T18:55:43.382+03:00  INFO 96105 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: com.example.FooService, bean: com.fit4j.grpc.SubFooServiceImplBase, class: com.fit4j.grpc.SubFooServiceImplBase
+2025-10-23T18:55:43.385+03:00  INFO 96105 --- [    Test worker] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: in-process:adde35d2-bbad-4fa1-8955-eb2cb8fb2875, port: -1
+2025-10-23T18:55:43.399+03:00  INFO 96105 --- [    Test worker] com.fit4j.examples.rest.RestExampleFIT   : Started RestExampleFIT in 1.445 seconds (process running for 2.044)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

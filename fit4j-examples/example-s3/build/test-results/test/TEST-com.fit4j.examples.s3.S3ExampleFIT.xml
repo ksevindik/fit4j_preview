@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fit4j.examples.s3.S3ExampleFIT" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-23T15:55:50" hostname="FWQXF07G9F" time="1.947">
+  <properties/>
+  <testcase name="it should work()" classname="com.fit4j.examples.s3.S3ExampleFIT" time="1.947"/>
+  <system-out><![CDATA[18:55:44.809 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.FIT with appropriate @AliasFor declarations: [webEnvironment]
+18:55:44.811 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.FIT with appropriate @AliasFor declarations: [webEnvironment]
+18:55:44.814 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.IT with appropriate @AliasFor declarations: [webEnvironment]
+18:55:44.997 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fit4j.examples.ExamplesParentApplication for test class com.fit4j.examples.s3.S3ExampleFIT
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.7)
+
+2025-10-23T18:55:45.225+03:00  INFO 96128 --- [    Test worker] org.testcontainers.images.PullPolicy     : Image pull policy will be performed by: DefaultPullPolicy()
+2025-10-23T18:55:45.227+03:00  INFO 96128 --- [    Test worker] o.t.utility.ImageNameSubstitutor         : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-10-23T18:55:45.230+03:00  INFO 96128 --- [    Test worker] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.1
+2025-10-23T18:55:45.309+03:00  INFO 96128 --- [    Test worker] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-10-23T18:55:45.491+03:00  INFO 96128 --- [    Test worker] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2025-10-23T18:55:45.506+03:00  INFO 96128 --- [    Test worker] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2025-10-23T18:55:45.552+03:00  INFO 96128 --- [    Test worker] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 5.6.0
+  API Version: 1.41
+  Operating System: fedora
+  Total Memory: 3612 MB
+2025-10-23T18:55:45.585+03:00  INFO 96128 --- [    Test worker] tc.testcontainers/ryuk:0.8.1             : Creating container for image: testcontainers/ryuk:0.8.1
+2025-10-23T18:55:45.639+03:00  INFO 96128 --- [    Test worker] tc.testcontainers/ryuk:0.8.1             : Container testcontainers/ryuk:0.8.1 is starting: 89ac63aec47b3ea0f40239fec6e45692ea1399dd4c2ad3d6136c6a6abab7d6ed
+2025-10-23T18:55:45.807+03:00  INFO 96128 --- [    Test worker] tc.testcontainers/ryuk:0.8.1             : Container testcontainers/ryuk:0.8.1 started in PT0.22233S
+2025-10-23T18:55:45.810+03:00  INFO 96128 --- [    Test worker] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-10-23T18:55:45.810+03:00  INFO 96128 --- [    Test worker] org.testcontainers.DockerClientFactory   : Checking the system...
+2025-10-23T18:55:45.810+03:00  INFO 96128 --- [    Test worker] org.testcontainers.DockerClientFactory   : ✔︎ Docker server version should be at least 1.6.0
+2025-10-23T18:55:45.817+03:00  INFO 96128 --- [    Test worker] tc.localstack/localstack:3.0             : LOCALSTACK_HOST environment variable set to localhost (to match host-routable address for container)
+2025-10-23T18:55:45.817+03:00  INFO 96128 --- [    Test worker] tc.localstack/localstack:3.0             : Creating container for image: localstack/localstack:3.0
+2025-10-23T18:55:46.129+03:00  WARN 96128 --- [    Test worker] o.t.containers.ContainerDef              : Unable to mount a file from test host into a running container. This may be a misconfiguration or limitation of your Docker environment. Some features might not work.
+2025-10-23T18:55:46.195+03:00  INFO 96128 --- [    Test worker] tc.localstack/localstack:3.0             : Container localstack/localstack:3.0 is starting: 19d4a35541c36054f9c8ded30356b790af5e5dab39c2982a45485084e42b9f7a
+2025-10-23T18:55:48.946+03:00  INFO 96128 --- [    Test worker] tc.localstack/localstack:3.0             : Container localstack/localstack:3.0 started in PT3.129225S
+2025-10-23T18:55:48.998+03:00  WARN 96128 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/kenan.sevindik/.gradle/caches/modules-2/files-2.1/org.json/json/20231013/e22e0c040fe16f04ffdb85d851d77b07fc05ea52/json-20231013.jar!/org/json/JSONObject.class
+	jar:file:/Users/kenan.sevindik/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-10-23T18:55:49.004+03:00  INFO 96128 --- [    Test worker] com.fit4j.examples.s3.S3ExampleFIT       : The following 1 profile is active: "test"
+2025-10-23T18:55:49.344+03:00  INFO 96128 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-23T18:55:49.349+03:00  INFO 96128 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2025-10-23T18:55:49.832+03:00  INFO 96128 --- [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-23T18:55:49.948+03:00  INFO 96128 --- [    Test worker] g.s.a.GrpcServerFactoryAutoConfiguration : 'grpc.server.in-process-name' is set: Creating InProcessGrpcServerFactory
+2025-10-23T18:55:50.184+03:00  INFO 96128 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-23T18:55:50.263+03:00  INFO 96128 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:8805427a-b6ff-40d6-9316-aa82252fe042 user=SA
+2025-10-23T18:55:50.263+03:00  INFO 96128 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-23T18:55:50.408+03:00  INFO 96128 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2025-10-23T18:55:50.408+03:00  INFO 96128 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2025-10-23T18:55:50.408+03:00  INFO 96128 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: com.example.FooService, bean: com.fit4j.grpc.SubFooServiceImplBase, class: com.fit4j.grpc.SubFooServiceImplBase
+2025-10-23T18:55:50.411+03:00  INFO 96128 --- [    Test worker] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: in-process:c7e2ccf3-c382-4ab6-97e4-94c9e7e3a2a2, port: -1
+2025-10-23T18:55:50.422+03:00  INFO 96128 --- [    Test worker] com.fit4j.examples.s3.S3ExampleFIT       : Started S3ExampleFIT in 5.367 seconds (process running for 6.019)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

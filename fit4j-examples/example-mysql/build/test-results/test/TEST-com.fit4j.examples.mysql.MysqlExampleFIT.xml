@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fit4j.examples.mysql.MysqlExampleFIT" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-23T15:55:34" hostname="FWQXF07G9F" time="0.546">
+  <properties/>
+  <testcase name="it should work()" classname="com.fit4j.examples.mysql.MysqlExampleFIT" time="0.546"/>
+  <system-out><![CDATA[18:55:13.985 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.FIT with appropriate @AliasFor declarations: [webEnvironment]
+18:55:13.987 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.FIT with appropriate @AliasFor declarations: [webEnvironment]
+18:55:13.989 [Test worker] WARN org.springframework.core.annotation.AnnotationTypeMapping -- Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.2. Please annotate the following attributes in @com.fit4j.annotation.IT with appropriate @AliasFor declarations: [webEnvironment]
+18:55:14.137 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fit4j.examples.ExamplesParentApplication for test class com.fit4j.examples.mysql.MysqlExampleFIT
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.7)
+
+2025-10-23T18:55:14.330+03:00  INFO 95974 --- [    Test worker] org.testcontainers.images.PullPolicy     : Image pull policy will be performed by: DefaultPullPolicy()
+2025-10-23T18:55:14.332+03:00  INFO 95974 --- [    Test worker] o.t.utility.ImageNameSubstitutor         : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-10-23T18:55:14.408+03:00  INFO 95974 --- [    Test worker] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-10-23T18:55:14.547+03:00  INFO 95974 --- [    Test worker] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2025-10-23T18:55:14.548+03:00  INFO 95974 --- [    Test worker] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2025-10-23T18:55:14.580+03:00  INFO 95974 --- [    Test worker] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 5.6.0
+  API Version: 1.41
+  Operating System: fedora
+  Total Memory: 3612 MB
+2025-10-23T18:55:14.610+03:00  INFO 95974 --- [    Test worker] tc.testcontainers/ryuk:0.7.0             : Creating container for image: testcontainers/ryuk:0.7.0
+2025-10-23T18:55:14.655+03:00  INFO 95974 --- [    Test worker] tc.testcontainers/ryuk:0.7.0             : Container testcontainers/ryuk:0.7.0 is starting: ac5aeb44bc7f9c60903cbf77efda292f7414d1c9d1374b104a1c231faccdaf14
+2025-10-23T18:55:14.806+03:00  INFO 95974 --- [    Test worker] tc.testcontainers/ryuk:0.7.0             : Container testcontainers/ryuk:0.7.0 started in PT0.196122S
+2025-10-23T18:55:14.809+03:00  INFO 95974 --- [    Test worker] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-10-23T18:55:14.809+03:00  INFO 95974 --- [    Test worker] org.testcontainers.DockerClientFactory   : Checking the system...
+2025-10-23T18:55:14.810+03:00  INFO 95974 --- [    Test worker] org.testcontainers.DockerClientFactory   : ✔︎ Docker server version should be at least 1.6.0
+2025-10-23T18:55:14.816+03:00  INFO 95974 --- [    Test worker] tc.mysql:8.0.37                          : Creating container for image: mysql:8.0.37
+2025-10-23T18:55:14.940+03:00  INFO 95974 --- [    Test worker] tc.mysql:8.0.37                          : Container mysql:8.0.37 is starting: 7e30b11a61774c8c4cbfc8cd1b0e34c74058e98efa1e7aadb0160dda16b77a3a
+2025-10-23T18:55:15.059+03:00  INFO 95974 --- [    Test worker] tc.mysql:8.0.37                          : Waiting for database connection to become available at jdbc:mysql://localhost:38691/v1?serverTimezone=America/Los_Angeles&useLegacyDatetimeCode=false using query 'SELECT 1'
+2025-10-23T18:55:32.613+03:00  INFO 95974 --- [    Test worker] tc.mysql:8.0.37                          : Container mysql:8.0.37 started in PT17.797095S
+2025-10-23T18:55:32.614+03:00  INFO 95974 --- [    Test worker] tc.mysql:8.0.37                          : Container is started (JDBC URL: jdbc:mysql://localhost:38691/v1?serverTimezone=America/Los_Angeles&useLegacyDatetimeCode=false)
+2025-10-23T18:55:32.622+03:00  INFO 95974 --- [    Test worker] org.testcontainers.ext.ScriptUtils       : Executing database script from mysql_initial_data.sql
+2025-10-23T18:55:32.753+03:00  INFO 95974 --- [    Test worker] org.testcontainers.ext.ScriptUtils       : Executed database script from mysql_initial_data.sql in 130 ms.
+2025-10-23T18:55:32.773+03:00  WARN 95974 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/kenan.sevindik/.gradle/caches/modules-2/files-2.1/org.json/json/20231013/e22e0c040fe16f04ffdb85d851d77b07fc05ea52/json-20231013.jar!/org/json/JSONObject.class
+	jar:file:/Users/kenan.sevindik/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-10-23T18:55:32.777+03:00  INFO 95974 --- [    Test worker] c.fit4j.examples.mysql.MysqlExampleFIT   : The following 1 profile is active: "test"
+2025-10-23T18:55:33.116+03:00  INFO 95974 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-10-23T18:55:33.121+03:00  INFO 95974 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2025-10-23T18:55:33.402+03:00  INFO 95974 --- [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-23T18:55:33.535+03:00  INFO 95974 --- [    Test worker] g.s.a.GrpcServerFactoryAutoConfiguration : 'grpc.server.in-process-name' is set: Creating InProcessGrpcServerFactory
+2025-10-23T18:55:33.753+03:00  INFO 95974 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-23T18:55:33.834+03:00  INFO 95974 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@589a82af
+2025-10-23T18:55:33.835+03:00  INFO 95974 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-23T18:55:34.024+03:00  INFO 95974 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2025-10-23T18:55:34.024+03:00  INFO 95974 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2025-10-23T18:55:34.024+03:00  INFO 95974 --- [    Test worker] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: com.example.FooService, bean: com.fit4j.grpc.SubFooServiceImplBase, class: com.fit4j.grpc.SubFooServiceImplBase
+2025-10-23T18:55:34.037+03:00  INFO 95974 --- [    Test worker] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: in-process:d45e5989-89e2-404c-b82f-4ce3ab1e8be3, port: -1
+2025-10-23T18:55:34.059+03:00  INFO 95974 --- [    Test worker] c.fit4j.examples.mysql.MysqlExampleFIT   : Started MysqlExampleFIT in 19.866 seconds (process running for 20.441)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

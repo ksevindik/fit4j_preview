@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fit4j.examples.grpc.GrpcExampleWithDeclarativeFixtureFIT" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-23T15:54:41" hostname="FWQXF07G9F" time="0.016">
+  <properties/>
+  <testcase name="should get foo with id 123()" classname="com.fit4j.examples.grpc.GrpcExampleWithDeclarativeFixtureFIT" time="0.007"/>
+  <testcase name="should get foo with id 456()" classname="com.fit4j.examples.grpc.GrpcExampleWithDeclarativeFixtureFIT" time="0.004"/>
+  <testcase name="should get foo name id 123()" classname="com.fit4j.examples.grpc.GrpcExampleWithDeclarativeFixtureFIT" time="0.004"/>
+  <system-out><![CDATA[2025-10-23T18:54:41.856+03:00  INFO 95791 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.fit4j.examples.grpc.GrpcExampleWithDeclarativeFixtureFIT]: GrpcExampleWithDeclarativeFixtureFIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-23T18:54:41.857+03:00  INFO 95791 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.fit4j.examples.ExamplesParentApplication for test class com.fit4j.examples.grpc.GrpcExampleWithDeclarativeFixtureFIT
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

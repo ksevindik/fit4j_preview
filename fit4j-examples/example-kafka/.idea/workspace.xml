@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54a185da-a45b-43e0-a0e1-3b021376de66" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.mise.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.mise.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../create-example-project.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../create-example-project.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-basic/src/test/kotlin/com/fit4j/examples/basic/SampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-basic/src/test/kotlin/com/fit4j/examples/basic/SampleFIT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-dynamodb-testcontainers/src/test/kotlin/com/fit4j/examples/dynamodb/DynamodbExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-dynamodb-testcontainers/src/test/kotlin/com/fit4j/examples/dynamodb/DynamoDBExampleFIT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-dynamodb/src/test/kotlin/com/fit4j/examples/dynamodb/DynamodbExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-dynamodb/src/test/kotlin/com/fit4j/examples/dynamodb/DynamoDBExampleFIT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-elastic-search/src/test/kotlin/com/fit4j/examples/elasticsearch/ElasticSearchExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-elastic-search/src/test/kotlin/com/fit4j/examples/elasticsearch/ElasticSearchExampleFIT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-grpc/src/test/kotlin/com/fit4j/examples/grpc/AnotherGrpcExampleAcceptanceTestWithDeclarativeFixture.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-grpc/src/test/kotlin/com/fit4j/examples/grpc/AnotherGrpcExampletWithDeclarativeFixtureFIT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-grpc/src/test/kotlin/com/fit4j/examples/grpc/GrpcExampleAcceptanceTestWithDeclarativeFixture.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-grpc/src/test/kotlin/com/fit4j/examples/grpc/GrpcExampletWithDeclarativeFixtureFIT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-grpc/src/test/kotlin/com/fit4j/examples/grpc/GrpcExampleTestWithProgrammaticFixture.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-grpc/src/test/kotlin/com/fit4j/examples/grpc/GrpcExampleWithProgrammaticFixtureFIT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-h2/src/test/kotlin/com/fit4j/examples/h2/H2ExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-h2/src/test/kotlin/com/fit4j/examples/h2/H2ExampleFIT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-kafka-testcontainers/src/test/kotlin/com/fit4j/examples/kafkatestcontainers/KafkaTestcontainersExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-kafka-testcontainers/src/test/kotlin/com/fit4j/examples/kafkatestcontainers/KafkaTestcontainersExampleAcceptanceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/fit4j/examples/kafka/KafkaExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/fit4j/examples/kafka/KafkaExampleAcceptanceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-mysql/src/test/kotlin/com/fit4j/examples/mysql/MysqlExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-mysql/src/test/kotlin/com/fit4j/examples/mysql/MysqlExampleAcceptanceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-redis-embedded/src/test/kotlin/com/fit4j/examples/redisembedded/RedisEmbeddedExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-redis-embedded/src/test/kotlin/com/fit4j/examples/redisembedded/RedisEmbeddedExampleAcceptanceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-redis/src/test/kotlin/com/fit4j/examples/redis/RedisExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-redis/src/test/kotlin/com/fit4j/examples/redis/RedisExampleAcceptanceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-rest/src/test/kotlin/com/fit4j/examples/rest/RestExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-rest/src/test/kotlin/com/fit4j/examples/rest/RestExampleAcceptanceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-s3/src/test/kotlin/com/fit4j/examples/s3/S3ExampleAcceptanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example-s3/src/test/kotlin/com/fit4j/examples/s3/S3ExampleAcceptanceTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="34NesBOuffRrGdA2yCK5Y4qNSp1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kenan.sevindik/git-projects/personal/acceptance-tests/fit4j/examples/example-kafka",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54a185da-a45b-43e0-a0e1-3b021376de66" name="Changes" comment="" />
+      <created>1761058660495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761058660495</updated>
+    </task>
+    <servers />
+  </component>
+</project>

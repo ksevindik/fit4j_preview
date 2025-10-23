@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - WebEnvironmentWithMockValueFIT</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>WebEnvironmentWithMockValueFIT</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.fit4j.http.html">com.fit4j.http</a> &gt; WebEnvironmentWithMockValueFIT</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.003s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testRestTemplate should not be available in mock environment()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2025-10-23T23:23:26.620+03:00 DEBUG 18523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [WebEnvironmentWithMockValueFIT]: using SpringBootContextLoader
+2025-10-23T23:23:26.621+03:00 DEBUG 18523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using ContextCustomizerFactory implementations for test class [WebEnvironmentWithMockValueFIT]: [Fit4JTestContextCustomizerFactory, TestContainersContextCustomizerFactory, MockWebServerContextCustomizerFactory, GrpcContextCustomizerFactory, EmbeddedKafkaContextCustomizerFactory, EmbeddedDynamoDBContextCustomizerFactory, EmbeddedRedisContextCustomizerFactory, EmbeddedKafkaContextCustomizerFactory, OnFailureConditionReportContextCustomizerFactory, OverrideAutoConfigurationContextCustomizerFactory, ObservabilityContextCustomizerFactory, TypeExcludeFiltersContextCustomizerFactory, PropertyMappingContextCustomizerFactory, WebDriverContextCustomizerFactory, ImportsContextCustomizerFactory, ExcludeFilterContextCustomizerFactory, HttpGraphQlTesterContextCustomizerFactory, DuplicateJsonObjectContextCustomizerFactory, MockitoContextCustomizerFactory, TestRestTemplateContextCustomizerFactory, WebTestClientContextCustomizerFactory, DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory, MockServerContainerContextCustomizerFactory, DynamicPropertiesContextCustomizerFactory]
+2025-10-23T23:23:26.621+03:00 DEBUG 18523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using ContextCustomizers for test class [WebEnvironmentWithMockValueFIT]: [Fit4JTestContextCustomizer, MockWebServerContextCustomizer, GrpcContextCustomizer, OnFailureConditionReportContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, WebDriverContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer]
+2025-10-23T23:23:26.621+03:00  INFO 18523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.fit4j.TestApplication for test class com.fit4j.http.WebEnvironmentWithMockValueFIT
+2025-10-23T23:23:26.621+03:00 DEBUG 18523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners for test class [WebEnvironmentWithMockValueFIT]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.4</a> at Oct 23, 2025, 11:25:02 PM</p>
+</div>
+</div>
+</body>
+</html>
